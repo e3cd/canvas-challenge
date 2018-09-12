@@ -1,0 +1,52 @@
+body {
+    background-color : rgb(183, 243, 230);
+    font-family: 'Nanum Gothic', verdana, arial, sans-serif;  
+}
+
+.page-wrapper {
+    background-color :  #7AC4D2;
+    color: white;
+    margin: 60px ;
+}
+
+.wrapper, footer {
+    background-color : #E4E591;
+    color: black;
+}
+
+.preamble, .requirements, .benefits {
+    background-color : #F2F9FB;
+    color: #333333;
+}
+
+.participation {
+    background-color : #D6334D
+}
+
+.intro h1{
+    background-color: #E7314D;
+    font-size: 26px;
+    font-weight: 300;
+    position: relative;
+    left: 30px;
+    top: 40px;
+    inline-size: 35%;
+    text-align: center;
+    padding: 20px;
+    width: 20%;
+}
+
+h2 {
+    font-size: 141px;
+    font-weight: 900;
+    line-height: 141px;
+    font-family: 'arial narrow', verdana, arial, sans-serif;
+}
+
+.summary {
+    font-size : 18px;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+

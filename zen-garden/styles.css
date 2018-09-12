@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Nanum+Gothic|');
+
+
+body {
+    background-attachment: scroll;
+    background-image: url(images/mountains.jpg);
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0,0%,75%,0.70);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.design-selection 
+
+h1  {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* .zen-validate-html {
+    background-image: url(images/html-5.png)
+} */
+
+.select { 
+    font-display: block;
+    font-family: 'Comfortaa', cursive;
+    font-size: 36px;
+    } 
+
+.design-name {
+    font-display: block;
+    font-family: 'Comfortaa', cursive;
+    font-size: 24px;
+}
+
+.archives {
+    font-display: block;
+    font-family: 'Comfortaa', cursive;
+    font-size: 36px;
+}
+
+.resources {
+    font-display: block;
+    font-family: 'Comfortaa', cursive;
+    font-size: 36px;
+}
+
+.sidebar {
+    height: 100%; /* Full-height*/
+    width: 25%; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;/* Stay at the top */
+    overflow-x: scroll;
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.sidebar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    padding: 25px 0px 25px 0px;
+    font-size: 20px;
+}
+
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.page-wrapper {
+    margin-left: 25%; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
